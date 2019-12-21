@@ -95,10 +95,6 @@ img{
   transition: linear .2s;
 }
 
-.gallery img:hover{
-  transform: scale(1.1);
-}
-
 .gallery p{
   position: absolute;
   left: 0;
@@ -109,7 +105,7 @@ img{
   width: 100%;
   line-height: 45px;
 
-}#cnt-container{
+}#box{
   background-color: #fff;
   padding: 30px 30px;
   margin: 30px auto;
@@ -117,17 +113,17 @@ img{
   min-height: calc(100% - 198px);
 }
 
-#cnt-container::after{
+#box::after{
    clear: both;
    display: block;
 }
 
-#cnt-container section h1{
+#box section h1{
   margin-bottom: 15px;
   color: #4aaaa5;
 }
 
-#cnt-container section hr{
+#box section hr{
   margin-bottom: 25px;
   border: 1.5px solid #e7e6e7;
 }
