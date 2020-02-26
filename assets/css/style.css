@@ -11,14 +11,20 @@ header{
 }
 
 #nav-container{
+  margin-top: 10px;
   line-height: 70px;
 }
 
 #text-logo{
   float: left;
-  background-color: darkgray;
-  padding: 0 20px;
-  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.card__image {
+  height: 80px;
+  width: 120px;
+  border: none;
 }
 
 /*body attibutes for all pages */
@@ -61,6 +67,7 @@ ul li{
 
 ul li a{
   text-decoration: none;
+  color: #666666;
 }
 
 ul li a:hover{
