@@ -1,5 +1,13 @@
+html {
+  background: url("/assets/images/newyork.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body{
-  background: url(../images/beanstalk-dark/beanstalk-dark.png);
+  background-color: transparent;
 }
 
 /*header*/
