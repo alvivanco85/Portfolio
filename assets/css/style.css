@@ -1,5 +1,5 @@
 html {
-  background: url("/assets/images/newyork.jpg");
+  background: url("../images/newyork.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,7 +19,6 @@ header{
 }
 
 #nav-container{
-  margin-top: 10px;
   line-height: 70px;
 }
 
@@ -33,6 +32,15 @@ header{
   height: 80px;
   width: 120px;
   border: none;
+}
+
+#linkedinBtn {
+  background: url(../images/linkedin.png);
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+  width: 50px;
+  height: 50px;
 }
 
 /*body attibutes for all pages */
@@ -201,3 +209,4 @@ footer{
 #footerText {
   color: white;
 }
+
